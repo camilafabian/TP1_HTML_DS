@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: purple;
+            font-weight: bold;
+            font-family: New Amsterdam;
+            font-size: 70px;
+        }
+        h2{
+            color: blue;
+            font-family: New Amsterdam;
+            font-size: 60px;
+            font-weight: lighter;
+        }
+        h3{
+            color: green;
+            font-family: New Amsterdam;
+            font-size: 50px;
+            font-style: italic;
+
+        }
+        h4{
+            color:rgb(175, 188, 4);
+            font-size: 40px;
+            font-family: New Amsterdam;
+            font-style: italic;
+        }
+        h5{
+            color: orangered;
+            font-size: 30px;
+            font-family: New Amsterdam;
+            text-decoration: underline;
+        }
+        h6{
+            color: red;
+            font-size: 20px;
+            font-family: New Amsterdam;
+            text-decoration: underline;
+        }
+        iframe{
+            width: 400px;
+            height: 220px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 >
+            Menu de enlaces internos y externos
+        </h2>
+        <div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#h1">Ir al inicio</a>
+                    </li>
+                    <li>
+                        <a href="#listas">Ir a las listas</a>                   
+                    </li>
+                    <li>
+                        <a href="#multi">Ir a multimedia</a>
+                    </li>
+                    <li>
+                        <a href="#tablas">Ir a tablas</a>
+                    </li>
+                    <li>
+                        <a href="#formularios">Ir a formularios</a>
+                    </li>
+                    <li><a href="https://www.youtube.com/watch?v=OqSQo2aifAA">HIMNO NACIONAL ARGENTINO(enlace externo)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div>
+            <h1 id="h1">
+                Bienvenidos a mi pagina web
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cumque, fuga exercitationem dolorum corrupti iste, enim non unde quaerat harum facere dolores dolor inventore repellendus molestias laboriosam laudantium quidem facilis.</p>
+        </div>
+    </section>
+    <section>
+            <h3 id="listas">
+                Listas ordenadas y desordenadas.
+            </h3>
+            <ol>
+                <li>ravioles</li>
+                <li>sorrentinos</li>
+                <li>ñoquis</li>
+                <li>lasagna</li>
+                <li>canelones</li>
+            </ol>
+            <ul>
+                <li>lapiz</li>
+                <li>regla</li>
+                <li>boligrafo</li>
+                <li>goma</li>
+                <li>marcador</li>
+            </ul>
+    </section>
+    <section>
+        <h4 id="multi">
+            Elementos multimedia
+        </h4>
+        <iframe alt="video de turros bailando" src="video/videoplayback.mp4"></iframe>
+        <img src="img/FAtQQXsWQAQQLap.png" alt="imagen muy fachera" style="width: 200px;">
+        <audio controls alt="creep de radiohead" src="audio/Creep-YTConverter.app.wav"></audio>
+    </section>
+    <section>
+        <div>
+            <h5 id="tablas">
+                Tablas
+            </h5>  
+        </div>
+        <div>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <h6 id="formularios">
+            Formularios
+        </h6>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </footer>
+    
+</body>
+</html>
